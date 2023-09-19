@@ -25,9 +25,10 @@ $(document).ready(function () {
             listaTarefas.appendTo('tbody');
 
 
-            listaTarefas.on('click', function () {
-                $(this).addClass('concluido');
-            });
+         listaTarefas.on('click', function () {
+            $(this).find('.tarefa').addClass('concluido');
+
+});
 
 
         }
