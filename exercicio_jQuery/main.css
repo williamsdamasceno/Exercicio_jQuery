@@ -79,6 +79,8 @@ table th {
 }
 
 .concluido {
+
     text-decoration: line-through;
     font-weight: bold;
-}
+
+} 
